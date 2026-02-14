@@ -1,7 +1,6 @@
 import { DragDropContext } from "@hello-pangea/dnd";
 import { useState } from "react";
 import useTasks from "../context/TaskContext/useTasks";
-import { useEffect,useState } from "react";
 import styled from "styled-components";
 
 import { loaderMock } from "../shared/mock";

@@ -1,3 +1,6 @@
+#env
+.env
+
 # Logs
 logs
 *.log
@@ -14,7 +17,7 @@ dist-ssr
 *.development
 
 # Editor directories and files
-.vscode/*
+.vscode
 !.vscode/extensions.json
 .idea
 .DS_Store
@@ -23,3 +26,4 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+.vercel

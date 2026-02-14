@@ -21,7 +21,7 @@ export default function PopUser() {
       <SHeaderPopUser>
         <a href="">x</a>
         <PopUserSetName>{user ? user.name : ""}</PopUserSetName>
-        <PopUserSetMail>{user ? `${user.login}@gmail.com` : ""}</PopUserSetMail>
+        <PopUserSetMail>{user ? user.login : ""}</PopUserSetMail>
         <PopUserSetTheme className="pop-user-set__theme">
           <p>Темная тема</p>
           <InputTheme
